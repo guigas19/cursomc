@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import br.com.guilherme.cursomc.domain.Categoria;
 import br.com.guilherme.cursomc.domain.Cliente;
-import br.com.guilherme.cursomc.repository.CategoriaRepository;
 import br.com.guilherme.cursomc.repository.ClienteRepository;
 import br.com.guilherme.cursomc.services.exceptions.ObjectNotFoundException;
 
