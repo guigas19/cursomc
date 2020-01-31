@@ -3,8 +3,8 @@ package br.com.guilherme.cursomc.services;
 import javax.mail.internet.MimeMessage;
 
 import org.springframework.mail.SimpleMailMessage;
-
 import br.com.guilherme.cursomc.domain.Pedido;
+
 
 public interface EmailService {
 	
@@ -17,3 +17,5 @@ public interface EmailService {
 	void sendHtmlEmail(MimeMessage msg);
 
 }
+
+
