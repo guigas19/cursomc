@@ -24,6 +24,11 @@ public class ClienteNewDTO implements Serializable {
 	private Integer tipo;
 	
 	@NotEmpty(message = "O campo é obrigatório")
+	private String senha;
+	
+
+
+	@NotEmpty(message = "O campo é obrigatório")
 	private String logradouro;
 	@NotEmpty(message = "O campo é obrigatório")
 	private String numero;
@@ -55,6 +60,10 @@ public class ClienteNewDTO implements Serializable {
 
 	public Integer getTipo() {
 		return tipo;
+	}
+	
+	public String getSenha() {
+		return senha;
 	}
 
 	public String getLogradouro() {
